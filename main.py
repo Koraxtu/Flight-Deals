@@ -4,7 +4,7 @@ from notification_manager import NotificationManager
 
 sheet_data = DataManager()
 sheet_data.read()
-
+# Check
 flightData = FlightSearch()
 
 for entry in sheet_data.result["prices"]:
